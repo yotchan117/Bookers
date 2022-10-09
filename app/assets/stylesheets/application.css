@@ -14,12 +14,6 @@
  *= require_self
  */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fff;
   color: #333;
@@ -79,4 +73,16 @@ th {
   vertical-align: inherit;
   font-weight: bold;
   text-align: center;
+}
+
+
+
+
+
+.field, .actions {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
 }
